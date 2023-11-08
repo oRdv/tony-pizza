@@ -1,0 +1,124 @@
+body{
+height: 100vh;
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(249,173,103,1) 100%);
+display: flex;
+flex-direction: column;
+padding: 32px 24px;
+font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.home{
+font-family: Roboto;
+color: white;
+}
+
+.home h1{
+    font-size: 22px;
+}
+
+.home p{
+    font-size: 14px;
+}
+
+.profile{
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14px;
+}
+
+.nav input {
+    width: 284px;
+    height: 49px;
+    background-color: white;
+    border-color: white;
+    border-bottom-left-radius:8px;
+    border-top-left-radius:8px;
+    border: none;
+}
+
+.lupa{
+    background-color: white;
+    border-bottom-right-radius:8px;
+    border-top-right-radius:8px;
+    height: 49px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::placeholder {
+    padding-left: 13px;
+}
+
+.categorias h1{
+    padding-top: 30px;
+    color: var(--branco);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.slide-red{
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.slide-red img{
+    width: 24px;
+    height: 24px;
+}
+
+.img1{
+    background-color: var(--red);
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardapioPizza h1{
+    padding-top: 12px;
+    color: #FFF;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.slider-pizza{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.description{
+    width: 112px;
+    height: 36px;
+    border-radius: 0px 0px 0px 8px;
+    background: rgba(0, 0, 0, 0.55);
+}

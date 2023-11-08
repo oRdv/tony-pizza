@@ -42,23 +42,6 @@ main{
     width: 300px;
 }
 
-.card {
-    background-color: rgba(19, 19, 19, 0.3);
-    padding: 40px;
-    border-radius: 2px;
-    width:280px;
-}
-
-.card-header::after {
-    content: "";
-    width: 70px;
-    height: 1px;
-    background-color: #fff;
-    display: block;
-    margin-top: -17px;
-    margin-left: -5px;
-}
-
 .card-content-area {
     display: flex;
     justify-content: center;
