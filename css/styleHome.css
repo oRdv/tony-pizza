@@ -159,6 +159,7 @@ color: white;
 }
 
 .container-pizza{
+    padding-top: 5px;
     display: flex;
     flex-direction: row;
     gap: 20px;
