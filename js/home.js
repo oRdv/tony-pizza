@@ -46,3 +46,7 @@ const pizzaFavoritas = () => {
     return jsonP
 
 }
+
+const criarPizzaFav = (pizza) => {
+    
+}
